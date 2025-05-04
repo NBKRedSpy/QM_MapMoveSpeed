@@ -1,0 +1,7 @@
+{
+  "UniqueModName": "NBKRedSpy_MapMoveSpeed",
+  "Assemblies": [
+    "MapMoveSpeed.dll"
+  ],
+  "Dependencies": []
+}
