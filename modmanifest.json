@@ -3,5 +3,10 @@
   "Assemblies": [
     "MapMoveSpeed.dll"
   ],
-  "Dependencies": []
+  "Dependencies": [],
+  "SteamTags": [
+    "0.9.5",
+    "0.9.1",
+    "Quality of Life"
+  ]
 }
