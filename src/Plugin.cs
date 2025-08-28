@@ -1,4 +1,5 @@
 ﻿using HarmonyLib;
+using MapMoveSpeed.Mcm;
 using MGSC;
 using System;
 using System.Collections.Generic;
@@ -20,6 +21,8 @@ namespace MapMoveSpeed
 
         public static Logger Logger = new Logger();
 
+        private static McmConfiguration McmConfiguration;
+
         [Hook(ModHookType.AfterConfigsLoaded)]
         public static void AfterConfig(IModContext context)
         {
@@ -27,6 +30,10 @@ namespace MapMoveSpeed
             Directory.CreateDirectory(ConfigDirectories.ModPersistenceFolder);
 
             Config = ModConfig.LoadConfig(ConfigDirectories.ConfigPath);
+
+            McmConfiguration = new McmConfiguration(Config, Plugin.Logger);
+            McmConfiguration.TryConfigure();
+
 
             new Harmony("NBKRedSpy_" + ConfigDirectories.ModAssemblyName).PatchAll();
         }

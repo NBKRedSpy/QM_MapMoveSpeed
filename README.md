@@ -7,12 +7,13 @@ Holding down the shift key while in a raid will speed up the scrolling of the ma
 Key and speed can be defined in the config file.
 
 # Configuration
+This mod supports the Mod Configuration Manager mod.  Some settings can be set in the UI, while all can be set in the config file directly.
 
 The configuration file will be created on the first game run and can be found at `%AppData%\..\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\MapMoveSpeed\config.json`.
 
 |Name|Default|Description|
 |--|--|--|
-|BorderMoveSpeed|10|The speed of the map movement.  The game defaults to 4.  Higher is faster.|
+|BorderMoveSpeed|8|The speed of the map movement.  The game defaults to 4.  Higher is faster.|
 |SpeedKey|LeftShift|The key used to enable the speed change|
 
 ## Key List
@@ -24,5 +25,12 @@ Use "None" to not bind the key.
 If you enjoy my mods and want to buy me a coffee, check out my [Ko-Fi](https://ko-fi.com/nbkredspy71915) page.
 Thanks!
 
+# Credits
+* Special thanks to Crynano for his excellent Mod Configuration Menu. 
+
 # Source Code
 Source code is available on GitHub at https://github.com/NBKRedSpy/QM_MapMoveSpeed
+
+# Change Log
+## 1.1.0
+* MCM Integration

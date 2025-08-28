@@ -26,10 +26,18 @@ namespace MapMoveSpeed
 
         static GameCamera_LateUpdate_Patch()
         {
-            MoveSpeed = Plugin.Config.BorderMoveSpeed;
-            SpeedKey = Plugin.Config.SpeedKey;  
+            Init();
         }
 
+        /// <summary>
+        /// Copies the values from the Plugin.Config needed to execute this functionality.
+        /// Useful for config updates.
+        /// </summary>
+        public static void Init()
+        {
+            MoveSpeed = Plugin.Config.BorderMoveSpeed;
+            SpeedKey = Plugin.Config.SpeedKey;
+        }
         public static void Prefix(GameCamera __instance)
         {
 

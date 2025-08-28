@@ -7,6 +7,8 @@ Key and speed can be defined in the config file.
 
 [h1]Configuration[/h1]
 
+This mod supports the Mod Configuration Manager mod.  Some settings can be set in the UI, while all can be set in the config file directly.
+
 The configuration file will be created on the first game run and can be found at [i]%AppData%\..\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\MapMoveSpeed\config.json[/i].
 [table]
 [tr]
@@ -20,7 +22,7 @@ The configuration file will be created on the first game run and can be found at
 [tr]
 [td]BorderMoveSpeed
 [/td]
-[td]10
+[td]8
 [/td]
 [td]The speed of the map movement.  The game defaults to 4.  Higher is faster.
 [/td]
@@ -46,6 +48,18 @@ Use "None" to not bind the key.
 If you enjoy my mods and want to buy me a coffee, check out my [url=https://ko-fi.com/nbkredspy71915]Ko-Fi[/url] page.
 Thanks!
 
+[h1]Credits[/h1]
+[list]
+[*]Special thanks to Crynano for his excellent Mod Configuration Menu.
+[/list]
+
 [h1]Source Code[/h1]
 
 Source code is available on GitHub at https://github.com/NBKRedSpy/QM_MapMoveSpeed
+
+[h1]Change Log[/h1]
+
+[h2]1.1.0[/h2]
+[list]
+[*]MCM Integration
+[/list]
