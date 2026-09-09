@@ -5,6 +5,11 @@ Holding down the shift key while in a raid will speed up the scrolling of the ma
 
 Key and speed can be defined in the config file.
 
+[h1]Alternative Mod[/h1]
+
+An alternative mod is [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3783604484]Zoomout Camera Speed Scaling[/url].
+This mod is not compatible with that mod, but they both solve a similar issue.
+
 [h1]Configuration[/h1]
 
 This mod supports the Mod Configuration Manager mod.  Some settings can be set in the UI, while all can be set in the config file directly.
